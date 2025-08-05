@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0, auto;
+    background-color: rgb(245, 255, 255);
+    
+
+}
+
+.container{
+    width: 1000px;
+    height: 40vh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 7px rgb(135, 135, 135);
+}
+
+.grid {
+    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,min-max(200px,auto));
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid;
+    line-height: 18px;   
+    align-items: center;
+    width: 200px;
+    height: 40vh;
+
+    font-size:13px;
+}
+
+
+.grid div{
+    padding: 10px;
+}
+.grid div:nth-child(even){
+
+     background-color: rgb(255, 255, 255);
+}
+
+.line1{
+    background-color: rgb(205, 207, 209);
+    position: relative;
+    height: 24px;
+    
+}
+
+.line2{
+    
+    border-bottom: 1px solid black;
+    
+    
+}
+
+.material-symbols-outlined, p{
+    position: relative;
+         vertical-align: middle;
+         margin-right: 10px;
+       bottom: 2px;  
+     
+}
+
+.line3{
+    border-bottom: 1px solid black;
+}
+
+.line4{
+    border-bottom: 1px solid black;
+}
+
+
+.line5{
+    border-bottom: 1px solid black;
+}
+
+.line6{
+    border-bottom: 1px solid black;
+}
+
+#line8{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+  
+}
+
+.top{
+    
+    background-color: rgb(4, 150, 179) ;
+      
+    background-image: url(man\ and\ woman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 60%;
+    background-position-y: 50px;
+    background-position-x: 250px;
+    width: 600px;
+    height: 40vh;
+}
+
+.inner{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-y: 80px;
+    padding: 40px;
+    width: 260px;
+    height: 200px;
+    top: 330px;
+    color: aliceblue;
+    line-height: 2px;
+}
+
+
+
+.image{
+    position: absolute;
+    top: 50px;
+}
+
+.pix{
+    position: absolute;
+    top: 340px;
+    width: 340px;
+    left: 940px;
+   
+}
+
+ .inner .sum{
+    font-family: 'Alata', sans-serif;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3vh;
+}
+
+.inner .percentage {
+   font-family: 'Alata', sans-serif;
+   font-family: 'Grand Hotel', cursive;
+   font-family: 'Merriweather Sans', sans-serif;
+   font-family: 'Odibee Sans', sans-serif;
+   font-size: 50px;
+   font-weight: bolder;
+}
+.start{
+    display: flex;
+
+}
+
+.at{
+    font-size: 10px;
+}
+
+.price{
+    width: 60px;
+    height: 35px;
+    background-color: rgb(220, 215, 215);
+    rotate: -10deg;
+}
+
+.price p{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    
+    
+}
+
+.get {
+    background-color: black;
+}
+

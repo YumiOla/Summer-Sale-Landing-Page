@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Istanbul
+X-LIC-LOCATION:Europe/Istanbul
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:+03
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Istanbul:20231004T150000
+DTEND;TZID=Europe/Istanbul:20231004T153000
+DTSTAMP:20230928T163806Z
+ORGANIZER;CN=salih.zorer@jagaad.com:mailto:salih.zorer@jagaad.com
+UID:bp6r8b20apjbu6ahu9n9thvmk4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=olaabayomi.e@gmail.com;X-NUM-GUESTS=0:mailto:olaabayomi.e@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=salih.zorer@jagaad.com;X-NUM-GUESTS=0:mailto:salih.zorer@jagaad.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/piq-ezsy-vrg
+X-MICROSOFT-CDO-OWNERAPPTID:2043855246
+CREATED:20230928T163804Z
+DESCRIPTION:Event Name: 1-on-1 with Salih\n\nLocation: This is a Google Mee
+ t web conference.\nYou can join this meeting from your computer\, tablet\, 
+ or smartphone.\nhttps://calendly.com/events/49a5a3ef-484d-46cf-b857-13289c1
+ 20e10/google_meet\n\nPlease share anything that will help prepare for our m
+ eeting.: Css Flex\n\nNeed to make changes to this event?\nCancel: https://c
+ alendly.com/cancellations/c7ad7ac3-3697-44fd-accb-840cefc6c1f4\nReschedule:
+  https://calendly.com/reschedulings/c7ad7ac3-3697-44fd-accb-840cefc6c1f4\n\
+ nPowered by Calendly.com\n\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://
+ meet.google.com/piq-ezsy-vrg\nOr dial: (GB) +44 20 3956 2910 PIN: 675536425
+ #\nMore phone numbers: https://tel.meet/piq-ezsy-vrg?pin=8937593516542&hs=7
+ \n\nLearn more about Meet at: https://support.google.com/a/users/answer/928
+ 2720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230928T163804Z
+LOCATION:Google Meet (instructions in description)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Abayomi and Salih Zorer
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
